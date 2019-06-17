@@ -1,6 +1,6 @@
-FROM circleci/android:api-28-node8-alpha
+FROM circleci/android:api-26-node8-alpha
 
-MAINTAINER Okode <info@okode.com>
+MAINTAINER Okode <info@okode.com>, giscaffer<giscafer@outlook.com>
 
 # Install Cordova and Ionic
 RUN sudo npm update -g
